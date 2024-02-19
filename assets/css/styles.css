@@ -1,5 +1,3 @@
-/* styles.css */
-
 h1,
 h2 {
   font-family: "Open Sans", sans-serif;
@@ -64,7 +62,7 @@ nav {
   background-color: black;
   padding: 20px;
   margin-top: -270px !important;
-  width: 100%; /* Agregamos esta regla para ocupar todo el ancho */
+  width: 100%;
 }
 
 .container-secciones p {
@@ -85,4 +83,38 @@ nav {
 .btn-cyan {
   background-color: cyan;
   border-color: cyan;
+}
+
+#enviarBtn {
+  margin-bottom: 20px;
+}
+
+#mensaje {
+  height: 200px;
+  margin-top: 10px;
+}
+
+/* Estilo adicional para el footer */
+footer {
+  background-color: cyan;
+  padding: 20px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilo específico para la etiqueta h3 en el footer */
+footer h3 {
+  color: white;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* Estilo específico para el contenedor de los iconos en el footer */
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
 }

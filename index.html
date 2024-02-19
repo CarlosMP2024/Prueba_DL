@@ -39,6 +39,7 @@
                   class="img-fluid"
                   style="width: 132px; height: 53px"
                 />
+                <span class="navbar-text">Viajes Chile</span>
               </a>
             </nav>
           </div>
@@ -63,13 +64,13 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -79,7 +80,7 @@
       </div>
     </header>
 
-    <!-- Nueva sección con el carrusel (actualizado para Bootstrap 5) -->
+    <!-- Nueva sección con el carrusel -->
     <section class="carousel-section mt-5">
       <div
         id="carouselExampleControls"
@@ -131,7 +132,11 @@
     </section>
 
     <!-- Nueva sección con 3 columnas -->
-    <section class="container-secciones" style="background-color: black">
+    <section
+      id="quienesSomos"
+      class="container-secciones"
+      style="background-color: black"
+    >
       <div class="container">
         <h2>Quienes Somos?</h2>
         <div class="row">
@@ -180,7 +185,7 @@
       </div>
     </section>
 
-    <section style="background-color: black">
+    <section id="destacados" style="background-color: black">
       <h1
         style="margin-top: 0px; text-align: center; color: #707070; opacity: 1"
       >
@@ -260,7 +265,7 @@
     </section>
 
     <!-- Nueva sección con formulario de contacto -->
-    <section style="background-color: black; margin-top: 0px">
+    <section id="contacto" style="background-color: black; margin-top: 0px">
       <div class="container">
         <h2 class="text-center">Contacto</h2>
         <form>
@@ -335,4 +340,36 @@
 
     <script src="assets/js/scripts.js"></script>
   </body>
+
+  <!-- Nueva sección del footer -->
+  <footer style="background-color: cyan; padding: 20px; margin-top: 0px">
+    <div class="container">
+      <!-- Etiqueta H3 alineada a la izquierda en color gris -->
+      <h3 style="color: white; text-align: left">Viajes Chile</h3>
+
+      <!-- Contenedor para los iconos -->
+      <div style="text-align: right">
+        <!-- Icono de Instagram -->
+        <a href="https://www.instagram.com/" target="_blank">
+          <i
+            class="fab fa-instagram"
+            style="color: white; font-size: 24px; margin-right: 15px"
+          ></i>
+        </a>
+
+        <!-- Icono de Facebook -->
+        <a href="https://www.facebook.com/" target="_blank">
+          <i
+            class="fab fa-facebook"
+            style="color: white; font-size: 24px; margin-right: 15px"
+          ></i>
+        </a>
+
+        <!-- Icono de Twitter -->
+        <a href="https://www.twitter.com/" target="_blank">
+          <i class="fab fa-twitter" style="color: white; font-size: 24px"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </html>
