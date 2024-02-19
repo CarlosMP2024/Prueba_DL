@@ -1,0 +1,44 @@
+/* styles.css */
+
+h1,
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+p,
+.list-group-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.producto-card {
+  width: 248px;
+  margin-top: 5px;
+  margin-bottom: 70px;
+}
+
+.card-img-top {
+  width: 248px;
+  height: 132px;
+  object-fit: cover;
+}
+
+.icono-font-awesome {
+  font-size: 3em;
+}
+
+body {
+  margin-top: 70px; /* Ajustar según sea necesario para dejar espacio para la barra de navegación */
+}
+
+.carousel-section {
+  position: relative;
+  top: -270px; /* Ajustar según sea necesario para superponer la barra de navegación */
+  z-index: 1;
+}
+
+nav {
+  z-index: 2;
+  margin-top: -60px;
+}
