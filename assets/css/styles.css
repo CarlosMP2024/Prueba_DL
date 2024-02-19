@@ -7,19 +7,20 @@ h2 {
   color: grey;
   text-align: center;
   margin-bottom: 20px;
+  background-color: black;
 }
 
 p,
 .list-group-item {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  color: white; /* Establecer el color del texto a blanco */
+  color: white;
 }
 
 .producto-card {
   width: 248px;
   margin-top: 5px;
-  margin-bottom: 70px;
+  margin-bottom: 20px; /* Reducir la distancia entre las tarjetas */
 }
 
 .card-img-top {
@@ -62,9 +63,11 @@ nav {
 .container-secciones {
   background-color: black;
   padding: 20px;
-  margin-top: -250px !important; /* Ajusta el valor negativo según sea necesario para reducir el espacio */
+  margin-top: -270px !important;
+  width: 100%; /* Agregamos esta regla para ocupar todo el ancho */
 }
 
 .container-secciones p {
-  color: white; /* Establecer el color del texto a blanco */
+  color: white;
+  background-color: black;
 }
