@@ -71,3 +71,18 @@ nav {
   color: white;
   background-color: black;
 }
+
+/* Nueva regla para dar espacio inferior a la sección "Destacados" */
+.container-secciones:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+/* Nueva regla para la sección de formulario de contacto */
+.container-secciones:nth-child(3) {
+  margin-top: 20px;
+}
+
+.btn-cyan {
+  background-color: cyan;
+  border-color: cyan;
+}
