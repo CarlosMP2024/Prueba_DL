@@ -1,15 +1,19 @@
 /* styles.css */
 
 h1,
-h5 {
+h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  color: grey;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p,
 .list-group-item {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
+  color: white; /* Establecer el color del texto a blanco */
 }
 
 .producto-card {
@@ -28,17 +32,39 @@ p,
   font-size: 3em;
 }
 
+/* Nuevas reglas para aumentar el tamaño de los iconos y centrarlos */
+.container .far {
+  font-size: 3em;
+  background-color: cyan;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.container .col-md-4 {
+  text-align: center;
+}
+
 body {
-  margin-top: 70px; /* Ajustar según sea necesario para dejar espacio para la barra de navegación */
+  margin-top: 70px;
 }
 
 .carousel-section {
   position: relative;
-  top: -270px; /* Ajustar según sea necesario para superponer la barra de navegación */
+  top: -270px;
   z-index: 1;
 }
 
 nav {
   z-index: 2;
   margin-top: -60px;
+}
+
+.container-secciones {
+  background-color: black;
+  padding: 20px;
+  margin-top: -250px !important; /* Ajusta el valor negativo según sea necesario para reducir el espacio */
+}
+
+.container-secciones p {
+  color: white; /* Establecer el color del texto a blanco */
 }
